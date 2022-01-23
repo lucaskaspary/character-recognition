@@ -1,0 +1,4 @@
+# ninja log v5
+1	13	1642940509719818904	build.ninja	10bcf1144ab88854
+0	186	1642940509911811536	CMakeFiles/character_recognition.dir/src/main.cpp.o	b24a759fb5d99f3f
+186	246	1642940509971809235	character_recognition	412f8311f26071c2

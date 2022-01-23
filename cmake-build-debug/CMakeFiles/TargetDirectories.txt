@@ -1,0 +1,3 @@
+/home/lucas/devel/cpp/character-recognition/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lucas/devel/cpp/character-recognition/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lucas/devel/cpp/character-recognition/cmake-build-debug/CMakeFiles/character_recognition.dir
