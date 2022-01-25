@@ -26,11 +26,4 @@ sudo apt -y install libopencore-amrnb-dev libopencore-amrwb-dev
 sudo apt -y install libavresample-dev
 sudo apt -y install x264 v4l-utils
 
-# Optional dependencies
-sudo apt -y install libprotobuf-dev protobuf-compiler
-sudo apt -y install libgoogle-glog-dev libgflags-dev
-sudo apt -y install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen
-
-sudo apt -y install python3-dev python3-pip
-sudo -H pip3 install -U pip numpy
-sudo apt -y install python3-testresources
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
