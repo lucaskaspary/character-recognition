@@ -11,10 +11,6 @@ cd 3rdparty
 rm -rf opencv/build
 rm -rf opencv_contrib/build
 
-# Create directory for installation
-mkdir opencv
-mkdir opencv/installation
-
 # Save current working directory
 cwd=$(pwd)
 
@@ -27,6 +23,9 @@ git clone https://github.com/opencv/opencv_contrib.git
 cd opencv_contrib
 git checkout $cvVersion
 cd ..
+
+# Create directory for installation
+mkdir opencv/installation
 
 cd opencv
 mkdir build

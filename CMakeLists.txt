@@ -5,7 +5,17 @@ project(character_recognition)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
-SET(OpenCV_DIR $PWD//installation/OpenCV-master/lib/cmake/opencv4)
+SET(OpenCV_DIR 3rdparty/opencv/installation/lib/cmake/opencv4/)
 
+find_package( OpenCV REQUIRED )
+
+include_directories(3rdparty/opencv/installation/include/opencv4/)
 
 add_executable(character_recognition src/main.cpp)
+
+
+link_directories(3rdparty/opencv/installation/lib)
+
+target_link_libraries(character_recognition opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
+
+
