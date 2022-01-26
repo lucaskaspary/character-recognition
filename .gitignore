@@ -33,6 +33,7 @@
 
 # Build path
 /cmake-build-debug
+/build
 
 # 3rdparty
 /3rdparty
