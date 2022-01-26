@@ -32,4 +32,7 @@
 *.app
 
 # Build path
-./cmake-build-debug
+/cmake-build-debug
+
+# 3rdparty
+/3rdparty
